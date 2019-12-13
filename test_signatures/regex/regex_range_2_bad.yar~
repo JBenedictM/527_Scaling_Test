@@ -1,0 +1,9 @@
+rule regex_range_2 {
+
+     strings:
+	$reg = /\x22\x22\x22[0-9a-zA-z]{,2}/
+
+
+     condition:
+	$reg
+}

@@ -1,0 +1,9 @@
+rule regex_len_4 {
+
+     strings:
+	$reg = /lol: [0-9a-zA-z]{4}/
+
+
+     condition:
+	$reg
+}

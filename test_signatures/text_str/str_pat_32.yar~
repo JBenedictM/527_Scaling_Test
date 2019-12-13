@@ -1,0 +1,9 @@
+rule str_256
+{
+	strings:
+		$str_256 = "X5O!P%@AP[4\\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*%e<?U:F^(9rwb]k;@Ptxm\\0J-3^Sch[zYziY2vMjrKH0]Y}t#g}FgoL~sOde,J_]2PXjc>#2(!g7Iq@^P=|]Xt:QT&5&d9mI'xo~+D/\\I;?Bxvx\"Gre{XfNW(f<S>eW?VOYf=2'fGZu?a5\\[NUKI&3T$dyoN)]YUOt#1HF%`N=#'09oI|s+L;%>zud$u"
+
+	condition:
+		$str_256
+	
+}
